@@ -22,6 +22,7 @@ var result = function() {
 };
 
 console.log(result());
+//The output is 3. Although score is initially set to 5, it is then reset to 3 when the function 'result()' is called.
 
 
 
