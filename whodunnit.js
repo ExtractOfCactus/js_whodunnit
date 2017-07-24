@@ -59,7 +59,7 @@ var allSuspects = function() {
 
 allSuspects();
 console.log( 'Suspect three is:' + suspectThree );
-
+//In this case the first output will by 'Suspects include: Jay, Val, Harvey, Rick'. The variable suspectThree is redefined to 'Harvey' once the allSuspects() function is called, but only locally ie within the function. This is why the second output is 'Suspect three is:Keith', because we are printing suspectThree outside the allSuspects() function where it remains set to 'Keith'.
 
 
 
