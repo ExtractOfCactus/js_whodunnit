@@ -7,7 +7,7 @@ var printName = function() {
 };
 
 printName();
-
+//The output is "My name is Keith". This is because 'name' is a global variable accessible from within functions such as 'printName()'.
 
 
 
