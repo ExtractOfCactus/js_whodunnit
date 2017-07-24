@@ -22,7 +22,7 @@ var result = function() {
 };
 
 console.log(result());
-//The output is 3. Although score is initially set to 5, it is then reset to 3 when the function 'result()' is called.
+//The output is 3. Although score is initially set to 5, however a new local variable called score is also created within the function result() when it is called. This score is set to 3 and it is this score variable which takes priority within the function.
 
 
 
@@ -59,7 +59,7 @@ var allSuspects = function() {
 
 allSuspects();
 console.log( 'Suspect three is:' + suspectThree );
-//In this case the first output will by 'Suspects include: Jay, Val, Harvey, Rick'. The variable suspectThree is redefined to 'Harvey' once the allSuspects() function is called, but only locally ie within the function. This is why the second output is 'Suspect three is:Keith', because we are printing suspectThree outside the allSuspects() function where it remains set to 'Keith'.
+//In this case the first output will by 'Suspects include: Jay, Val, Harvey, Rick'. A local variable suspectThree is defined as 'Harvey' once the allSuspects() function is called, but only locally ie within the function. This is why the second output is 'Suspect three is:Keith', because we are printing suspectThree outside the allSuspects() function where we use the global suspectThree set to 'Keith'.
 
 
 
@@ -81,7 +81,7 @@ var detectiveInfo = function() {
 };
 
 console.log(detectiveInfo());
-
+//The name of the detective object starts out as 'Ace Ventura'. The variable function detectiveInfo() is printed to the console. To get this result, first the function reassigns the name of the detective object to 'Poirot', then it returns the function printName(), which in turn returns the newly assigned name. This is what is printed to the console (ie 'Poirot').
 
 
 
