@@ -102,7 +102,7 @@ var outerFunction = function() {
 
 outerFunction();
 console.log('the murderer is ', murderer);
-
+//The final output will be 'the murderer is  rick'. This is because although innerFunction() is reassigning murderer to 'valerie' it is the local variable in outerFunction() that is being reassigned, not the global variable murderer defined outside of both functions. It is this global varibale that is printed to the console.
 
 
 
