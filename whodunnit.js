@@ -40,7 +40,7 @@ var listAnimals = function() {
 }
 
 listAnimals();
-
+//Here we get 0: Ducks 1: Dogs 2: Lions. This is because within the listAnimals function myAnimals is redefined to an array of those animals. A for loop then creates a variable, 'i' which increases by one after each iteration and prints it to the console next to the animal at that index in the array.
 
 
 
