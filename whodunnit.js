@@ -118,21 +118,21 @@ console.log('the murderer is ', murderer);
 // Episode 7 - Make up your own episode/s!
 
 // Make up your own episode which can be whatever you wish and the rest of the class will work out together what happened and what the output will be.
-var privateEye = "Martin";  //Martin
-var theMurderer = "Marvin"; //MArvin
+var privateEye = "Martin";  
+var theMurderer = "Marvin"; 
                             
 var who = function() {
-  var witness = "Melvin";   //melvin
+  var witness = "Melvin";   
   privateEye = "Milton";
   how = function() {
-    var privateEye = "Merlin"; //Milton
+    var privateEye = "Merlin"; 
 
     var when = function() {
       theMurderer = "Morton";
       privateEye = "Milton";
     }
     when();
-    var witness = "Morven"; //
+    var witness = "Morven"; 
   }
   which()
   var manson = "Morton"
@@ -141,7 +141,7 @@ var who = function() {
   }
   if (witness === "Melvin") {
     privateEye = "Milkin";
-    theMurdered = "Marlin"; //
+    theMurdered = "Marlin"; 
   }
   which();
   where = function() {
@@ -153,7 +153,7 @@ var who = function() {
 var which = function() {
   how();
   if (privateEye === "Martin") {
-    var theMurderer = "Mertin"; //
+    var theMurderer = "Mertin"; 
     privateEye = "Milken";
     where();
   }
