@@ -1,3 +1,9 @@
+var what = function() {
+  theMurderer = "Jim-Bob";
+}
+
+
+
 // Episode 1
 
 var name = 'Keith';
@@ -108,6 +114,58 @@ console.log('the murderer is ', murderer);
 
 
 
+
 // Episode 7 - Make up your own episode/s!
 
 // Make up your own episode which can be whatever you wish and the rest of the class will work out together what happened and what the output will be.
+var privateEye = "Martin";  //Martin
+var theMurderer = "Marvin"; //MArvin
+                            
+var who = function() {
+  var witness = "Melvin";   //melvin
+  privateEye = "Milton";
+  how = function() {
+    var privateEye = "Merlin"; //Milton
+
+    var when = function() {
+      theMurderer = "Morton";
+      privateEye = "Milton";
+    }
+    when();
+    var witness = "Morven"; //
+  }
+  which()
+  var manson = "Morton"
+  var what = function() {
+    witness = "Merkin";
+  }
+  if (witness === "Melvin") {
+    privateEye = "Milkin";
+    theMurdered = "Marlin"; //
+  }
+  which();
+  where = function() {
+    privateEye = manson;
+    when();
+  }
+}
+
+var which = function() {
+  how();
+  if (privateEye === "Martin") {
+    var theMurderer = "Mertin"; //
+    privateEye = "Milken";
+    where();
+  }
+  else if (privateEye === "Milkin") {
+      privateEye = "Martin";
+  }
+  else {
+    theMurderer = "Mervin";
+  }
+}
+
+
+who();
+what();
+console.log(privateEye, "captured the murderer,", theMurderer);
